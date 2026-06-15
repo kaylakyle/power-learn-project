@@ -1,0 +1,337 @@
+🌍 Module 1:
+
+Introduction to Problem Solving & Computational Thinking
+
+Diagnosing Why a Mobile Money App Fails in Rural Malawi
+
+🌱 Welcome, Future Problem-Solvers!
+
+Before we write a single line of code, let’s talk about the real superpower of every great software engineer: the ability to solve problems.
+
+Think of the last time you helped your aunt find the cheapest way to send money to your cousin in another city. Or when you helped a friend figure out the fastest trotro route across Accra during rush hour. You were already problem-solving! Software engineering simply gives you tools to solve bigger problems—faster, smarter, and at scale.
+
+Today, we begin our journey not as coders, but as thinkers.
+
+🎯 What You’ll Learn Today
+
+By the end of this lesson, you will:
+
+✅ Understand what "problem solving" really means (it’s not just coding!)
+✅ Grasp the 4 pillars of computational thinking
+✅ See how these ideas show up in everyday African life
+✅ Practice breaking down a real problem before touching a keyboard
+
+🔍 Part 1: What Is a "Problem"? (Let’s Get Honest)
+
+A problem is simply:
+
+"A gap between where you are and where you want to be."
+
+Where You Are
+
+	
+
+Where You Want to Be
+
+	
+
+The Gap = Problem
+
+
+
+
+Farmer in rural Kenya has no idea what tomatoes cost in Nairobi market
+
+	
+
+Farmer wants fair price before harvesting
+
+	
+
+❌ No market information
+
+
+
+
+Student in Lagos spends 2 hours daily waiting for water
+
+	
+
+Student wants reliable water access
+
+	
+
+❌ Unpredictable supply
+
+
+
+
+Clinic in Malawi loses paper patient records during rainy season
+
+	
+
+Clinic wants safe, quick record access
+
+	
+
+❌ Fragile system
+
+Key insight: A well-defined problem is already half-solved.
+👉 Bad problem statement: "Healthcare is bad."
+👉 Good problem statement: "Nurses in rural clinics spend 30 mins daily searching for paper files, delaying emergency care."
+
+💡 Part 2: Computational Thinking — Your 4 Superpowers
+
+You don’t need a computer to think computationally. You already do it—let’s name your powers:
+
+1. Decomposition → "Break It Down"
+
+What it is: Splitting a big, scary problem into smaller, manageable pieces.
+
+African Example:
+
+Problem: "Farmers lose 40% of harvest before reaching market."
+Break it down:
+
+Why do tomatoes spoil? → No cooling during transport
+Why no cooling? → Trucks lack refrigeration
+Why no refrigeration? → Too expensive for small farmers
+What’s affordable? → Evaporative cooling using local clay pots + water
+
+👉 You just decomposed a national challenge into a solvable engineering question.
+
+2. Pattern Recognition → "Spot the Rhythm"
+
+What it is: Noticing similarities across situations to avoid reinventing the wheel.
+
+Example:
+
+In Ghana, Kenya, and Rwanda, mobile money succeeded because:
+
+People trust agents (shopkeepers) more than banks
+USSD (#123#) works on any phone—not just smartphones
+Transactions happen in seconds, not days
+
+👉 Pattern: Trust + Accessibility + Speed = Adoption
+→ When building a new app for paying school fees, reuse this pattern!
+
+3. Abstraction → "Focus on What Matters"
+
+What it is: Ignoring distracting details to see the core structure.
+
+Try this:
+Draw directions from your house to the nearest market.
+❌ Don’t draw every tree, pothole, or goat on the road.
+✅ Do draw: major turns, landmarks (e.g., "blue mosque," "Shell station"), distances.
+
+That’s abstraction!
+→ In software: When building a boda boda booking app, you care about:
+✅ Rider location, driver availability, price
+❌ Driver’s favorite football team (sorry, Salah fans 😄)
+
+4. Algorithms → "Recipe for Success"
+
+What it is: A clear, step-by-step set of instructions anyone can follow.
+
+
+Example — Making Jollof Rice: 
+
+1. Wash rice until water runs clear 
+
+2. Heat oil in pot 
+
+3. Fry onions until golden 
+
+4. Add tomatoes, pepper, spices → cook 10 mins 
+
+5. Add rice + water (2:1 ratio) 
+
+6. Cover. Cook on low heat 25 mins. DO NOT STIR. 
+
+7. Fluff with fork. Serve with chicken. 
+
+  👉 This is an algorithm. If you skip step 6 ("DO NOT STIR"), you get mushy rice.
+→ Software works the same way: precise steps = reliable results.
+
+🌍 Part 3: Why This Matters in Africa
+
+We face challenges that Silicon Valley engineers may never see:
+
+Challenge
+
+	
+
+What It Teaches Us
+
+
+
+
+Intermittent electricity
+
+	
+
+→ Build apps that save progress offline
+
+
+
+
+Low smartphone penetration
+
+	
+
+→ Design for USSD/SMS first, apps later
+
+
+
+
+Multilingual communities
+
+	
+
+→ Avoid English-only interfaces
+
+
+
+
+Informal economies
+
+	
+
+→ Trust networks > credit scores
+
+Computational thinking helps us turn constraints into creativity.
+→ No stable internet? → Build offline-first apps (like Mwanga solar payment system in Tanzania).
+→ Low literacy? → Use voice + icons (like Farm.ink SMS weather alerts for farmers).
+
+✍️ Let’s Practice Together: The "TroTro Problem"
+
+Scenario:
+Students at your university waste 45 minutes daily waiting for troTros at the gate. Sometimes they miss lectures. Drivers wait too—empty seats cost them money.
+
+Your 10-Minute Challenge (no coding!):
+
+Decompose: List 3 smaller problems inside this big one.
+(Example: "Students don’t know when next troTro arrives")
+Pattern Recognize: Have you seen this solved elsewhere?
+(Example: "Boda boda apps show live driver locations")
+Abstract: What 4 pieces of data matter most?
+(Example: troTro location, destination, seats left, ETA)
+Algorithm: Write 5 steps for a student to get a troTro without waiting.
+(Example: "1. Open app → 2. Tap 'Campus to City' → 3. See next troTro 3 mins away...")
+
+💬 Take 2 minutes now—grab a pen and try this!
+(This is how engineers think BEFORE they code.)
+
+🧠 Key Takeaways (Pocket Wisdom)
+
+Concept
+
+	
+
+Simple Meaning
+
+	
+
+African Metaphor
+
+
+
+
+Problem Solving
+
+	
+
+Closing the gap between "is" and "should be"
+
+	
+
+Like a community elder mediating a land dispute—not with force, but wisdom
+
+
+
+
+Decomposition
+
+	
+
+Break big into small
+
+	
+
+Like preparing egusi soup: chop veggies → fry base → add stock → simmer
+
+
+
+
+Pattern Recognition
+
+	
+
+Learn from what worked before
+
+	
+
+Like farmers reading clouds to predict rain—experience becomes pattern
+
+
+
+
+Abstraction
+
+	
+
+Keep only what matters
+
+	
+
+Like a griot telling history: not every detail, but the truth that moves hearts
+
+
+
+
+Algorithm
+
+	
+
+Foolproof step-by-step plan
+
+	
+
+Like your grandmother’s fufu recipe: "Pound 10 mins. Not 9. Not 11."
+
+🌟 Your First Assignment (No Computer Needed!)
+
+Observe one problem in your community this module. It could be:
+
+Long queues at the water tap
+Market vendors losing sales when it rains
+Students sharing one textbook
+
+Then answer in 1 paragraph:
+
+What is the real problem? (Be specific!)
+How would you decompose it into 3 smaller pieces?
+What’s one existing solution (anywhere in Africa) that shares a pattern?
+
+✨ Great engineers don’t wait for problems to come to them. They walk into the world with curious eyes.
+
+💬 Professor’s Closing Thought
+
+"In Africa, we have always been problem-solvers. Our grandparents navigated deserts by stars. Our mothers stretch one chicken to feed ten guests. Our street vendors calculate change faster than calculators.
+
+Software engineering doesn’t give us problem-solving—it amplifies what we already carry in our blood.
+
+Today, you didn’t learn to code. You remembered how to think.
+And that… is where magic begins."
+
+📌 Summary
+
+A problem is simply the gap between where you are and where you want to be—a farmer lacking market prices, a student waiting hours for water. Computational thinking gives you four superpowers to close that gap: decomposition (breaking big problems into small pieces, like preparing egusi soup step by step), pattern recognition (spotting rhythms—mobile money succeeded across Africa through trust + accessibility + speed), abstraction (focusing on what matters—like a griot telling history's essence, not every detail), and algorithms (foolproof recipes—your grandmother's fufu instructions: "Pound 10 minutes. Not 9. Not 11."). You already solve problems daily—finding troTro routes, helping relatives send money. Software engineering simply amplifies this wisdom. Great engineers don't wait for problems—they walk into the world with curious eyes. Remember: In Africa, we've always been problem-solvers. Our grandparents navigated deserts by stars. Software doesn't give us this skill—it amplifies what we already carry in our blood.
+
+ 
+
+📎 Next Class Preview:
+Module 2: Problem Decomposition Deep Dive, Mapping the "Farm-to-Market" Journey in Ethiopia
+
+📚 Free Resource:
+Try the Bebras Challenge (bebras.org); fun computational thinking puzzles that work offline! Many African countries participate.
