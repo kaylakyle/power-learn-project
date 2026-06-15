@@ -1,0 +1,364 @@
+Seeing Eye Lab 👁️
+Description
+
+🧪 Lab 1: "The Market Queue Challenge"
+
+Cluster 1 — "The Seeing Eye" (Modules 1–3)
+Time: 75 minutes | No computer required | Low-bandwidth friendly
+
+🌍 Lab Context: The Real Problem
+
+In markets across Africa—from Oshodi in Lagos to Makola in Accra—women spend 2–3 hours daily waiting in queues to buy essentials (garri, tomatoes, cooking oil). This time loss means:
+
+Children left unsupervised
+Missed income-generating opportunities
+Physical exhaustion in sun/rain
+
+Your mission: Use computational thinking to transform this chaotic problem into a solvable system—before writing a single line of code.
+
+📋 Materials Needed (Choose One Option)
+
+Option A (Digital)
+
+	
+
+Option B (Paper-Based)
+
+
+
+
+• Smartphone/laptop
+• Pen + notebook
+• Timer app
+
+	
+
+• 3 sheets of paper
+• Pen/pencil
+• Watch or phone timer
+• Optional: market photo printed from internet
+
+</>No internet during lab? Use Option B. This lab works 100% offline.
+
+ 
+
+🔬 Part 1: SEE Clearly (20 mins)
+
+Module 1 — Problem Solving & Computational Thinking
+
+Step 1: Watch this 90-second silent video (or study the printed photo):
+👉 [Instructor shows 90-second video of crowded market queue OR distributes printed photo]
+
+Step 2: Individually answer in your notebook:
+
+Question
+
+	
+
+Your Answer
+
+
+
+
+What is the real problem here? (Be specific—not "queues are bad")
+
+	
+
+
+Who is affected? List 3 different people/groups
+
+	
+
+
+What is one assumption engineers might make that's WRONG?
+
+	
+
+💡 Tip: Bad problem statement: "Queues are long."
+</> Good problem statement: "Market women lose 2 hours daily waiting because they don't know when vendors restock popular items."
+
+🔬 Part 2: BREAK It Down (25 mins)
+
+Module 2 — Decomposition & Abstraction
+
+Step 1: Decompose the queue
+Draw an "onion diagram" with 4 layers:
+
+        [Layer 1: Surface symptom]
+                ↓
+        [Layer 2: Immediate cause]
+                ↓
+        [Layer 3: System failure]
+                ↓
+        [Layer 4: Root constraint]
+
+Example:
+
+Layer 1: "Women wait 2 hours"
+Layer 2: "Vendors run out of garlic by 10am"
+Layer 3: "No coordination between suppliers and vendors"
+Layer 4: "Suppliers arrive randomly; no shared schedule system"
+
+Step 2: Abstract the essential data
+List ONLY the 5 pieces of information needed to solve this:
+
+Essential Data
+
+	
+
+Why It Matters
+
+	
+
+What to IGNORE
+
+
+
+
+e.g., Vendor restock time
+
+	
+
+Predicts when queue forms
+
+	
+
+Vendor's shirt color
+
+
+		
+		
+		
+		
+
+🔬 Part 3: BUILD the Recipe (20 mins)
+
+Module 3 — Algorithms & Step-by-Step Logic 
+
+Design an algorithm for one small intervention that could reduce waiting by 20%.
+
+Choose ONE pathway:
+
+Pathway A (SMS-based)
+
+	
+
+Pathway B (Physical signal)
+
+
+
+
+Farmer texts code → gets restock alert
+
+	
+
+Vendor hangs colored cloth → signals "garri arriving in 15 mins"
+
+Write your algorithm in plain English (pseudocode):
+
+START
+  WHEN [trigger event happens]
+  THEN [step 1]
+  THEN [step 2]
+  ...
+  END WHEN [goal achieved]
+END
+
+Example (Pathway B):
+
+START
+  WHEN supplier truck arrives at market gate
+  THEN vendor hangs GREEN cloth on stall pole
+  THEN women see cloth → continue shopping nearby
+  WHEN vendor starts unloading garri
+  THEN vendor changes cloth to YELLOW
+  THEN women form orderly queue
+  END WHEN first 10 customers served
+END
+
+📝 Deliverable (Submit These 3 Items)
+
+Problem statement (1 sentence): Clear, specific, human-centered
+Onion diagram photo/sketch: 4 layers of decomposition   
+
+💭 Reflection Questions (5 mins)
+
+Answer briefly in your notebook:
+
+What surprised you when decomposing the queue problem?
+Which detail was hardest to ignore during abstraction? Why?
+How would your algorithm fail if it rained heavily? (Edge case thinking)
+One thing you'll observe differently next time you're in a queue:
+
+🌟 Lab Success Checklist
+
+Ø  I defined a SPECIFIC problem (not vague)
+I broke it into 4 meaningful layers (not just "big → small")
+My algorithm has clear triggers and outcomes
+I identified at least one edge case (rain, power cut, etc.)
+I reflected on my own assumptions
+
+💬 Instructor's Note to Students
+
+"This lab isn't about building the perfect solution. It's about training your eyes to see chaos as solvable systems.
+
+The market queue isn't 'just how things are.' It's a system with layers, patterns, and leverage points.
+
+Great engineers don't see problems as noise. They see them as invitations to bring order with humility.
+
+Today, you practiced seeing. Next lab, you'll practice weaving.
+
+Well done." 
+
+ 
+
+📚 Extension Challenge (Optional)
+
+Interview one real person who waits in queues regularly (market vendor, water collector, bus passenger). Ask:
+
+"What's the ONE thing that would cut your waiting time by half?"
+
+Compare their answer to your algorithm. Did you solve the real problem—or your imagined one? 
+Algorithm: 5–7 step pseudocode for your chosen pathway
+
+📤 Submission format: Photo of your paper OR typed answers in Padlet (provided by instructor)
+
+
+                            ANSWERS
+Got you Lynn — here are full sample answers for the entire Seeing Eye Lab 👁️ that you can copy, adapt, or submit.
+
+I’ll structure it exactly like your lab so it’s easy to transfer to paper.
+
+🧪 SEEING EYE LAB — FULL SAMPLE ANSWERS
+🔬 PART 1: SEE CLEARLY
+✅ 1. What is the real problem here? (1 sentence)
+
+Market women spend 2–3 hours daily in queues because there is no system to predict stock availability or coordinate when vendors restock goods, leading to inefficient waiting times and loss of productivity.
+
+👥 2. Who is affected? (3 groups)
+👩‍🌾 Market women/customers → lose time and income opportunities
+🧑‍🌾 Vendors → lose sales efficiency and face crowd pressure
+👶 Children at home → left unattended while caregivers wait in queues
+❌ 3. One WRONG assumption engineers might make
+
+An engineer might assume that the problem is simply “too many people in the market at once”, when in reality the deeper issue is lack of coordination in supply timing and restocking information.
+
+🔬 PART 2: BREAK IT DOWN (DECOMPOSITION + ABSTRACTION)
+🧅 Onion Diagram (4 Layers)
+Layer 1: Surface Symptom
+Women wait 2–3 hours in long queues
+Layer 2: Immediate Cause
+Popular goods (tomatoes, garri, oil) run out quickly in the morning
+Layer 3: System Failure
+No communication between suppliers, vendors, and customers about stock levels or restocking time
+Layer 4: Root Constraint
+No centralized or digital system for predicting demand and coordinating deliveries
+🎯 5 Essential Data (Abstraction Table)
+Essential Data	Why It Matters	What to IGNORE
+Stock levels of goods	Shows availability and demand	Vendor’s clothing style
+Restock time	Predicts when goods arrive	Vendor’s personal life
+Queue length	Shows demand pressure	Market decorations
+Delivery schedule	Helps coordinate supply	Weather mood of individuals
+Time of day	Identifies peak hours	Vendor’s background story
+🔬 PART 3: BUILD THE ALGORITHM
+📡 Pathway A (SMS-based Solution)
+🧠 Algorithm (Pseudocode)
+START
+
+WHEN vendor receives new stock OR restock is confirmed
+
+THEN vendor sends SMS to system with:
+     - item type
+     - quantity available
+     - expected selling start time
+
+THEN system updates central availability database
+
+THEN system sends SMS alerts to registered customers:
+     "GARri available at Makola Market. Ready in 10 mins. Limited stock."
+
+THEN customers decide whether to come or wait
+
+WHEN stock reaches 80% sold
+
+THEN system sends "LOW STOCK ALERT" message
+
+END WHEN all stock is sold out
+
+END
+📌 Alternative (Short Physical Signal Version)
+START
+
+WHEN new stock arrives at vendor stall
+
+THEN vendor hangs GREEN cloth = stock available
+
+THEN customers nearby see signal and approach in order
+
+WHEN stock becomes low
+
+THEN vendor changes cloth to YELLOW
+
+WHEN stock finishes
+
+THEN vendor removes cloth completely
+
+END WHEN market closes
+
+END
+💭 REFLECTION ANSWERS
+1. What surprised you when decomposing the queue problem?
+
+What surprised me was realizing that the queue problem is not caused by people alone, but by lack of coordination in the entire supply system, including delivery timing, restocking communication, and demand prediction. I initially thought it was just overcrowding, but deeper analysis showed it is a system design problem, not a people problem.
+
+2. Which detail was hardest to ignore during abstraction? Why?
+
+The hardest detail to ignore was the human suffering aspect, such as tiredness, weather conditions, and personal struggles of market women. These details felt very important emotionally, but I had to ignore them because abstraction requires focusing only on system-relevant information like stock levels, timing, and demand patterns.
+
+3. How would your algorithm fail if it rained heavily?
+
+If it rained heavily, the algorithm would fail because:
+
+Physical signals (like cloth or movement in queues) may not be visible or practical
+People may leave the market early or avoid coming at all
+SMS communication may still work, but response behavior changes unpredictably
+Vendors may delay restocking due to weather conditions
+
+This makes the system less reliable because it assumes normal operating conditions without environmental disruptions.
+
+4. One thing I will observe differently next time I am in a queue
+
+Next time I am in a queue, I will observe it as a system rather than a random delay. I will look at:
+
+how people arrive and form queues
+how fast goods are served
+whether there are patterns in delays
+whether communication or organization affects efficiency
+
+Instead of frustration, I will think in terms of system design and possible improvements.
+
+🌟 OPTIONAL EXTENSION (INTERVIEW INSIGHT)
+Sample answer:
+
+When interviewing a market vendor/water collector, a common response would likely be:
+
+“If I knew exactly when goods would arrive or when customers peak, I could prepare better and reduce waiting time.”
+
+This aligns with my algorithm because both focus on:
+
+better timing
+improved communication
+prediction of demand
+
+👉 This shows that real-world users value information flow and coordination, not just physical changes in the system.
+
+💡 FINAL NOTE (IMPORTANT)
+
+If you submit this, your lecturer will see that you understand:
+
+✔ Problem definition
+✔ Decomposition (4 layers)
+✔ Abstraction (data selection)
+✔ Algorithm design (step-by-step logic)
+✔ Edge case thinking
+✔ Real-world reasoning
