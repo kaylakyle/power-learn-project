@@ -1,0 +1,200 @@
+👶 1. Explained like you’re 10 years old
+
+Think of this whole lesson like learning how to become a smart puzzle solver instead of just someone who “writes code.”
+
+🧠 What is a problem?
+
+A problem is just:
+
+“You want something, but you don’t have it yet.”
+
+Example:
+
+You want to get to school fast 🚶‍♀️
+But troTros are slow or not there 😩
+→ That’s the problem
+🦸‍♀️ The 4 superpowers of your brain
+1. 🧩 Decomposition = Break it into small pieces
+
+Big problem: “I’m late to school”
+
+Break it:
+
+No transport on time
+Too many people waiting
+No schedule
+
+👉 Like eating a big cake by slicing it first
+
+2. 🔁 Pattern recognition = Notice repeats
+
+You notice:
+
+Every Monday = buses are late
+Rain = more delays
+
+👉 So you think: “Ohhh, this happens often!”
+
+Like remembering enemies in a video game 😄
+
+3. 🎯 Abstraction = Ignore noise
+
+You only focus on what matters.
+
+If you’re going to the shop:
+
+You care about roads and turns
+Not every tree or goat 🐐
+
+👉 You remove “useless details” in your mind
+
+4. 📜 Algorithm = Step-by-step recipe
+
+Like cooking ugali:
+
+Boil water
+Add flour
+Stir
+Finish
+
+👉 If you follow steps, you always get results
+
+That’s exactly how computers think.
+
+🌍 Why this matters in Africa
+
+Because real life problems here are like:
+
+No electricity ⚡
+Slow internet 📶
+Long queues 🚶‍♂️
+
+So instead of giving up, engineers:
+👉 break problems
+👉 find patterns
+👉 simplify ideas
+👉 build step-by-step solutions
+
+🚐 TroTro example (simple)
+
+Problem: Students wait too long for transport
+
+You:
+
+Break it down (no timing info, too many people, no system)
+Notice pattern (rush hour = delays)
+Focus only on key info (where bus is, seats, time)
+Make steps (app or system to show next bus)
+👩‍💻 2. Explained like YOU (Lynn – developer mindset)
+
+Now let’s switch gears.
+
+This module is basically teaching you:
+
+“Before you code anything, think like an engineer, not a typist.”
+
+🧠 Core idea: Coding is NOT the first step
+
+Real workflow:
+
+1. Understand the problem clearly
+
+Bad:
+
+“Transport is bad”
+
+Good:
+
+“Students wait 45 minutes daily at campus gate due to unpredictable troTro arrival times”
+
+👉 This is already half a solution.
+
+⚙️ Computational Thinking in real dev terms
+🧩 Decomposition (System design skill)
+
+You’re basically doing early-stage system architecture.
+
+Example (TroTro system):
+
+User problem
+Driver problem
+Timing problem
+Information problem
+
+👉 This is exactly how backend systems are planned.
+
+🔁 Pattern recognition (like building faster)
+
+You are reusing global solutions:
+
+Mobile money success = trust + simplicity + low tech access
+So for your app:
+→ maybe USSD
+→ maybe SMS alerts
+→ not only smartphone apps
+
+👉 This is how good engineers don’t reinvent the wheel.
+
+🎯 Abstraction (VERY important in dev)
+
+You learn to strip complexity.
+
+For a transport app, you only care about:
+
+location
+time
+capacity
+destination
+
+NOT:
+
+driver mood
+vehicle color
+random irrelevant info
+
+👉 This is exactly what API design is.
+
+📜 Algorithms (actual programming mindset)
+
+This becomes:
+
+functions
+logic flow
+backend steps
+user flow
+
+Example:
+
+User flow algorithm:
+
+Open app
+Select route
+See available transport
+Book seat
+Confirm
+
+👉 This is literally frontend + backend logic planning.
+
+🌍 Why this is powerful for YOU specifically
+
+Because you're learning:
+
+Java
+JavaScript
+MERN stack
+
+So this module is training you to:
+
+Stop jumping into code immediately
+Start thinking like a system designer first
+
+That’s what separates:
+
+beginners ❌ “I code what I see”
+engineers ✅ “I design before I code”
+💡 Simple truth from this module
+
+If you only remember ONE thing:
+
+Good engineers don’t start with code.
+They start with understanding the problem deeply.
