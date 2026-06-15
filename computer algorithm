@@ -1,0 +1,380 @@
+Algorithms & Step-by-Step Logic
+
+Designing SMS-Based Crop Price Alerts for Farmers Without Smartphones
+
+🔁 Recap: What We Learned in Module 2
+
+Last module, we mastered decomposition (breaking big problems into small pieces) and abstraction (focusing on essentials while ignoring noise). Using Ethiopia's farm-to-market journey and Nairobi's matatu scheduling chaos, we learned to peel problems like onions—layer by layer—until we found solvable pieces. We discovered that African elders have practiced this for generations: resolving disputes by hearing each voice separately, mapping routes with only key landmarks. The golden rule emerged: "Solve the smallest piece that creates the biggest ripple."
+
+🌱 Welcome, Recipe Makers!
+
+Last module, we broke big problems into pieces. Today, we learn to arrange those pieces into clear, reliable sequences—what we call algorithms. Think of them as recipes: precise enough that anyone (or any computer) can follow them and get the same result.
+
+We’ll design algorithms for farmers who own basic Nokia phones—not smartphones. No apps. No internet. Just good old SMS. Because in Africa, the best solution isn’t always the fanciest—it’s the one that reaches.
+
+🎯 What You’ll Learn Today
+
+✅ Define an algorithm (hint: it’s not just for computers!)
+✅ Write step-by-step logic in plain language (pseudocode)
+✅ Design for constraints: low bandwidth, low literacy, intermittent power
+✅ Test algorithms by walking through them manually (no coding needed)
+
+🔍 Part 1: What Is an Algorithm? (Beyond the Textbook)
+
+Simple definition:
+
+"A foolproof sequence of steps to turn input into output."
+
+African Examples You Already Know:
+
+Algorithm
+
+	
+
+Input
+
+	
+
+Steps
+
+	
+
+Output
+
+
+
+
+Making fufu
+
+	
+
+Cassava + water
+
+	
+
+1. Boil cassava 20 mins
+2. Pound in mortar 10 mins
+3. Knead until smooth
+
+	
+
+Stretchy fufu ready for soup
+
+
+
+
+Haggling at market
+
+	
+
+Desired price + vendor’s price
+
+	
+
+1. Ask price
+2. Shake head, walk away 3 steps
+3. Vendor calls you back
+4. Offer 60% of original
+5. Meet at 75%
+
+	
+
+Fair deal + mutual respect
+
+
+
+
+SMS crop alert
+
+	
+
+Farmer’s location + crop type
+
+	
+
+1. Farmer texts "TOMATO ADDIS"
+2. System checks database
+3. Replies "TOMATO: 45 ETB/kg TODAY. +5% vs last module"
+
+	
+
+Farmer decides when to harvest
+
+👉 Notice: All three work without computers. Algorithms are human thinking made explicit.
+
+🔍 Part 2: Writing Algorithms for Low-Tech Africa
+
+Challenge: 85% of smallholder farmers in sub-Saharan Africa use basic phones. No touchscreens. No apps. But everyone has SMS.
+
+Let’s design an algorithm for "Farmer Aisha" in rural Tanzania:
+
+Aisha grows tomatoes. She wants to know Addis Ababa market prices before deciding whether to harvest today or wait.
+
+Step 1: Define inputs & outputs
+
+✅ Input: Farmer’s phone number + crop code (e.g., "TOM") + location code ("ADD")
+✅ Output: SMS with current price + trend (+/- %) + harvest recommendation
+
+Step 2: Write the step-by-step logic (pseudocode):
+
+START
+
+       RECEIVE SMS from farmer
+
+       EXTRACT: crop_code, location_code
+
+       LOOK UP latest_price IN price_database WHERE crop=crop_code AND market=location_code
+
+       CALCULATE price_change = (today_price - last_module_price) / last_module_price * 100
+
+       IF price_change > 5% THEN recommendation = "HARVEST NOW"
+
+       ELSE IF price_change < -5% THEN recommendation = "WAIT 3 DAYS"
+
+       ELSE recommendation = "MONITOR DAILY"
+
+       SEND SMS: "[CROP]: [price] ETB/kg. [price_change]% vs last module. [recommendation]"
+
+END
+
+Step 3: Test it manually (no computer!)
+
+You = the system. Friend = Farmer Aisha.
+Friend texts: "TOM ADD"
+You look up fake price table: Tomatoes in Addis = 45 ETB/kg (was 42 last module)
+You calculate: (45-42)/42 = +7.1% → "HARVEST NOW"
+You reply: "TOMATO: 45 ETB/kg. +7% vs last module. HARVEST NOW"
+
+✅ Works! No coding required—just clear logic.
+
+🌍 Why This Matters in Africa
+
+Constraint
+
+	
+
+Algorithmic Adaptation
+
+
+
+
+Low literacy
+
+	
+
+Use numbers/icons: "1=TOMATO 2=ONION" → Farmer texts "1"
+
+
+
+
+Expensive SMS
+
+	
+
+Compress messages: "T45↑7%" instead of full sentences
+
+
+
+
+No real-time data
+
+	
+
+Cache prices locally on village agent’s phone; sync when connected
+
+
+
+
+Multiple languages
+
+	
+
+Store farmer’s language preference; reply in Swahili/Yoruba/etc.
+
+💡 Golden Rule: "An algorithm that works only on fiber internet solves no African problem."
+
+✍️ Let’s Practice: The "Mobile Money Reversal" Algorithm
+
+Scenario:
+A user accidentally sends 500 KES to the wrong number via M-Pesa. They need to reverse it—but only within 2 minutes, and only if the recipient hasn’t withdrawn it.
+
+Your 20-Minute Challenge:
+
+List all possible inputs (e.g., sender phone, amount, time elapsed...)
+Write step-by-step logic for the reversal process
+Identify 3 places where the algorithm could fail (edge cases)
+Design a simple SMS confirmation flow ("Reply 1 to confirm reversal")
+
+💬 Work in trios. Act out the roles: sender, system, recipient.
+
+🧠 Key Takeaways (Pocket Wisdom)
+
+Concept
+
+	
+
+Simple Meaning
+
+	
+
+African Metaphor
+
+
+
+
+Algorithm
+
+	
+
+Foolproof sequence
+
+	
+
+Like your grandmother’s jollof recipe: "2 cups rice. Not 1.9. Not 2.1."
+
+
+
+
+Pseudocode
+
+	
+
+Plain-language blueprint
+
+	
+
+Like explaining dance steps to a friend: "Step left → clap → spin → smile"
+
+
+
+
+Edge Case
+
+	
+
+Unexpected situation
+
+	
+
+Like rain during a wedding: your plan must account for it—or fail gracefully
+
+🌟 Your Assignment: Algorithm for "Community Alert"
+
+Design an SMS-based algorithm for flood warnings in a riverside community (e.g., along River Niger):
+
+Who sends the alert? (village elder? sensor?)
+What triggers it? (water level > X cm?)
+How do recipients confirm receipt? (critical for accountability)
+What happens if SMS fails? (fallback plan)
+
+Write it in plain English—no code. Test it by walking through with a friend.
+
+✨ Remember: The best algorithms feel invisible—they just work when needed.
+
+💬 Professor’s Closing Thought
+
+"In my village in Ghana, the blacksmith doesn’t say 'I use algorithms.' He says: 'First heat the iron until it glows red—not orange, not white. Then hammer 7 times on the anvil. Dip in water. Wait 10 seconds. Repeat.'
+
+That is an algorithm. Tested over generations. Reliable. Life-giving.
+
+You are not learning to code. You are learning to codify wisdom—so it can scale beyond one village, one blacksmith, one lifetime.
+
+That is sacred work."
+
+📌 Summary
+
+Algorithms are foolproof step-by-step recipes—not just for computers, but for life itself. Making fufu, haggling at markets, sending M-Pesa reversals—all follow precise sequences that anyone can replicate. We designed SMS-based crop price alerts for farmers with basic Nokia phones: clear logic where "TOMATO ADDIS" triggers a price reply without apps or internet. Key insight: test algorithms manually before coding—walk through each step with a friend. Design for constraints: compress messages ("T45↑7%"), support local languages, handle edge cases like sudden rain. The best algorithms feel invisible—they just work when needed. Remember: you're not learning to code. You're learning to codify wisdom so it scales beyond one village, one lifetime, one grandmother's memory.
+
+ 
+
+📌 Next Class Preview
+
+Module 4: Data Representation & Structures — Storing Community Health Records on Low-Memory Devices in DRC
+
+How do you store 500 patient records on a tablet with 512MB storage—and no internet? Next module, we learn to choose the right container for information. Every byte counts when lives depend on it.
+
+📚 Free Resources (Low-Bandwidth Friendly)
+
+Resource
+
+	
+
+What It Is
+
+	
+
+Why It Helps You
+
+	
+
+Access Link
+
+
+
+
+Twilio API Trial
+
+	
+
+Free SMS sandbox (no credit card)
+
+	
+
+Test your crop alert algorithms with real SMS
+
+	
+
+twilio.com/quest → Works on 2G
+
+
+
+
+Pseudocode Guide (PDF)
+
+	
+
+4-page visual guide to writing plain-language algorithms
+
+	
+
+No jargon—just "if this, then that" examples
+
+	
+
+bit.ly/pseudocode-africa (180KB PDF)
+
+
+
+
+M-Pesa Transaction Simulator
+
+	
+
+Excel sheet mimicking mobile money flows
+
+	
+
+Practice algorithm design with real African transaction patterns
+
+	
+
+Google Sheets: bit.ly/mpesa-sim → "File → Download as Excel"
+
+
+
+
+"Algorithms in African Markets" Podcast
+
+	
+
+15-min audio on haggling as algorithmic thinking
+
+	
+
+Hear how traders use step-by-step logic daily
+
+	
+
+Spotify/Google Podcasts: Search "Tech4Africa S2E3" → Download for offline
+
+💡 Pro Tip: Use Twilio's free tier to send yourself test SMS alerts—see how algorithms feel in real life. 
