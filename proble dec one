@@ -1,0 +1,170 @@
+👶 1. Like you’re 10 years old
+🧩 What is problem decomposition?
+
+Problem decomposition just means:
+
+“Taking a big scary problem and breaking it into small easy pieces.”
+
+🍰 Easy example
+
+Imagine you have a big cake 🎂 and you can’t eat it whole.
+
+So what do you do?
+
+You:
+
+cut it into slices
+eat one slice at a time
+
+👉 That is decomposition.
+
+🚐 Real-life example (matatu problem)
+
+Big problem:
+
+“Matatus take too long and people wait too much.”
+
+That’s too big!
+
+So you break it:
+
+🚶 People don’t know when matatus will arrive
+🚐 Matatus don’t know where passengers are
+⏰ No timing system
+🪑 Some matatus are full, others empty
+
+👉 Now it’s easy to solve each small piece.
+
+🌍 Farm-to-market example (Ethiopia)
+
+Big problem:
+
+“Farmers lose food before it reaches market.”
+
+You break it like peeling an onion 🧅:
+
+🚚 Problem in transport (roads bad)
+🏪 Problem in storage (no cooling)
+📦 Problem at collection points
+💰 Problem is cost of better systems
+
+👉 Now instead of “fix everything”, you can fix ONE thing first.
+
+💡 Simple idea
+
+Big problem → break it → solve small parts → combine solutions
+
+👩‍💻 2. Like YOU (Lynn – developer mindset)
+
+Now let’s connect it to how YOU actually code and build systems.
+
+⚙️ What decomposition REALLY means in programming
+
+It is basically:
+
+Breaking a system into components before writing code
+
+This is how ALL real apps are designed.
+
+🚐 Example: Transport app (like Uber for matatus)
+
+Big problem:
+
+“People wait too long for transport”
+
+Instead of coding immediately, you break it into modules:
+
+🧩 1. User side (frontend)
+show available matatus
+show ETA
+allow booking
+🧩 2. Driver side
+show passenger demand
+show best route
+update location
+🧩 3. Backend logic
+match drivers ↔ passengers
+calculate ETA
+store data
+🧩 4. Data problem
+no real-time location system
+no route tracking
+
+👉 Now THIS is something you can actually build step-by-step.
+
+🔥 Why this is IMPORTANT for YOU
+
+If you don’t decompose:
+
+❌ You try to build everything at once → you get stuck
+❌ You don’t know where to start
+❌ You feel overwhelmed
+
+If you decompose:
+
+✅ You know EXACTLY what to build first
+✅ You can use JavaScript / Java / MERN step by step
+✅ You think like a real software engineer
+
+🧠 Abstraction (the second skill)
+
+This means:
+
+“Ignoring unnecessary details and focusing only on what matters.”
+
+🍔 Simple example
+
+If you order food in an app:
+
+You only care about:
+
+food name 🍕
+price 💰
+delivery time ⏱️
+
+You DON’T care about:
+
+chef’s mood
+kitchen paint color
+waiter’s shoes
+
+👉 That is abstraction.
+
+👩‍💻 In coding terms
+
+When building a system:
+
+You KEEP:
+important data (users, routes, time)
+You IGNORE:
+irrelevant details (random personal info)
+🚐 Transport app abstraction example
+
+Instead of tracking EVERYTHING:
+
+❌ driver’s personality
+❌ vehicle color
+❌ music playing
+
+You only keep:
+
+location 📍
+seats available 🪑
+route 🛣️
+time ⏰
+
+👉 That makes your system clean and easy to build.
+
+💡 Final simple memory trick
+🧩 Decomposition = break it down
+
+Like cutting a cake 🍰
+
+🎯 Abstraction = ignore noise
+
+Like zooming in on what matters 🔍
+
+🌟 One sentence to remember
+
+Decomposition helps you know WHERE to start.
+Abstraction helps you know WHAT matters.
