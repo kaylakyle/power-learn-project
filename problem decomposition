@@ -1,0 +1,316 @@
+Problem Decomposition & Abstraction
+
+Mapping the "Farm-to-Market" Journey in Ethiopia
+
+🔁 Recap: What We Learned in Module 1
+
+Last module, we discovered that problem-solving is simply "closing the gap between where you are and where you want to be." We met computational thinking's four superpowers: decomposition (breaking big into small), pattern recognition (spotting rhythms), abstraction (focusing on what matters), and algorithms (step-by-step recipes). Using troTro routing in Accra and jollof rice recipes, we saw that great engineers think before they type—and that Africa has always been a continent of problem-solvers.
+
+ 
+
+🌱 Welcome, Thoughtful Builders!
+
+Last module, we learned that great problem-solvers think before they type. Today, we sharpen two of your most powerful tools: decomposition (breaking big problems into bite-sized pieces) and abstraction (seeing the forest and the trees—but knowing which trees matter).
+
+Let’s journey to the Ethiopian highlands, where smallholder farmers grow teff, coffee, and onions—but often lose 30–40% of their harvest before reaching Addis Ababa markets. Why? Not one single reason—but a chain of small failures.
+
+🎯 What You’ll Learn Today
+
+✅ Master decomposition: slicing complex problems without losing the big picture
+✅ Practice abstraction: knowing what to keep vs. what to ignore
+✅ Map a real African supply chain as a solvable system
+✅ Avoid the #1 beginner mistake: trying to solve everything at once
+
+🔍 Part 1: Decomposition — The Art of "Peeling the Onion"
+
+What it is:
+Breaking a complex problem into smaller, independent parts that you can solve one at a time.
+
+Ethiopian Farm-to-Market Example:
+
+Big Problem: "Farmers lose too much harvest before selling."
+
+Let’s peel the onion layer by layer:
+
+Layer
+
+	
+
+Question
+
+	
+
+Insight
+
+
+
+
+Layer 1
+
+	
+
+Where exactly does loss happen?
+
+	
+
+During transport (35%), at collection points (25%), in storage (40%)
+
+
+
+
+Layer 2
+
+	
+
+Why does transport loss happen?
+
+	
+
+Bad roads → tomatoes crushed; no cooling → onions sprout
+
+
+
+
+Layer 3
+
+	
+
+Why no cooling?
+
+	
+
+Refrigerated trucks cost $25,000—too expensive for cooperatives
+
+
+
+
+Layer 4
+
+	
+
+What’s affordable?
+
+	
+
+Clay pot evaporative coolers ($5/unit) used in Sudan
+
+👉 Your move: Solve Layer 4 first. Not the whole chain—just one piece that unlocks the next.
+
+💡 Golden Rule: "Solve the smallest piece that creates the biggest ripple."
+
+🔍 Part 2: Abstraction — The Skill of "Zooming In & Out"
+
+What it is:
+Deciding which details matter for this specific problem—and safely ignoring the rest.
+
+Try This Exercise:
+Draw a map from your village to the nearest market. Now answer:
+
+❌ Too much detail: "Turn left after the third mango tree with the broken branch near Mama Aisha’s compound where her goat always sleeps..."
+✅ Just right: "Turn left at the blue mosque → straight 500m → market entrance on right"
+
+In Software:
+When building a farm logistics app, you need:
+
+✅ Farmer location (GPS coordinates)
+✅ Crop type & quantity
+✅ Road condition rating (good/fair/poor)
+❌ Farmer’s birthdate, favorite football team, or number of goats (unless relevant to credit scoring!)
+
+💡 Golden Rule: "Abstraction isn’t ignoring reality—it’s respecting your user’s attention."
+
+🌍 African Wisdom Corner
+
+In many African cultures, elders solve disputes by decomposing the conflict:
+
+"First, let’s hear from the farmer. Then the herder. Then the chief. We will not mix all voices at once."
+
+And they abstract by focusing on restoration—not blame:
+
+"We don’t care who threw the first stone. We care: How do we share this land so both families eat next season?"
+
+This is computational thinking—long before computers existed.
+
+✍️ Let’s Practice: The "Matatu Scheduling Problem"
+
+Scenario:
+In Nairobi, matatus (minibuses) crowd the city center during rush hour—but suburbs have empty vehicles. Passengers wait 40+ minutes. Drivers earn less.
+
+Your 15-Minute Challenge:
+
+Decompose this into 4 smaller problems (e.g., "Drivers don’t know where passengers are waiting")
+Abstract a matatu ride down to 5 essential data points (e.g., route ID, current location, seats available...)
+Sketch a simple system diagram showing how these pieces connect
+
+💬 Work in pairs. No computers—just paper, pens, and your brilliant minds.
+
+🧠 Key Takeaways (Pocket Wisdom)
+
+Concept
+
+	
+
+Simple Meaning
+
+	
+
+African Metaphor
+
+
+
+
+Decomposition
+
+	
+
+Break big into small
+
+	
+
+Like preparing injera: grind teff → ferment batter → heat mitad → pour → wait → flip
+
+
+
+
+Abstraction
+
+	
+
+Keep only what moves the needle
+
+	
+
+Like a griot telling history: not every battle detail, but the lesson that guides the next generation
+
+
+
+
+System Thinking
+
+	
+
+See how pieces affect each other
+
+	
+
+Like a baobab tree: roots feed soil → soil grows grass → grass feeds goats → goats feed family
+
+🌟 Your Assignment: The "Water Queue" Challenge
+
+Observe water collection points in your community (borehole, tap, river). Then:
+
+Decompose the "long wait time" problem into 3–5 smaller pieces
+Abstract the water-fetching process to 4 essential steps
+Propose one small intervention that could reduce waiting by 20% (e.g., SMS queue alerts)
+
+✨ Remember: You’re not building an app yet. You’re training your mind to see systems.
+
+💬 Professor’s Closing Thought
+
+"In Africa, we know that a river isn’t one thing—it’s source, current, rocks, fish, children playing, women washing, farmers irrigating.
+
+To fix a polluted river, you don’t shout 'Clean the river!' You ask: Where does pollution enter? Who depends on this stretch? What small change upstream changes everything downstream?
+
+That is decomposition. That is abstraction. That is wisdom.
+
+Today, you didn’t just learn techniques—you remembered how your ancestors thought."
+
+ 
+
+📌 Summary
+
+Decomposition breaks overwhelming problems into bite-sized pieces you can actually solve—like peeling an onion layer by layer through Ethiopia's farm-to-market chain. Abstraction helps you zoom in on what truly matters (a matatu's route, seats available) while ignoring noise (driver's football team). Together, they transform "farmers lose 40% of harvest" into solvable questions: "Why no cooling during transport? What affordable alternatives exist?" African wisdom embodies this: elders decompose disputes by hearing each voice separately; griots abstract history to its healing truths. Practice by mapping water queues or market routes. Remember: solve the smallest piece that creates the biggest ripple. You're not avoiding the big picture—you're making it reachable.
+
+ 
+
+📌 Next Class Preview
+
+Module 3: Algorithms & Step-by-Step Logic — Designing SMS-Based Crop Price Alerts for Farmers Without Smartphones
+
+Next module, we turn our decomposed pieces into foolproof recipes—algorithms that work on basic phones. We'll design a system where a farmer texts "TOMATO ADDIS" and gets market prices via SMS. No apps. No internet. Just clear logic that saves harvests.
+
+📚 Free Resources (Low-Bandwidth Friendly)
+
+Resource
+
+	
+
+What It Is
+
+	
+
+Why It Helps You
+
+	
+
+Access Link
+
+
+
+
+Bebras Challenge
+
+	
+
+Fun computational thinking puzzles (no coding)
+
+	
+
+Practice decomposition with African-themed problems
+
+	
+
+bebras.org → Download PDFs for offline use
+
+
+
+
+OpenStreetMap Africa
+
+	
+
+Free map data of African roads, markets, farms
+
+	
+
+Visualize supply chains for decomposition exercises
+
+	
+
+openstreetmap.africa → Download country extracts
+
+
+
+
+"Decomposition in Daily Life" Video
+
+	
+
+8-min Swahili/English video showing problem breakdown
+
+	
+
+See how market vendors decompose pricing decisions
+
+	
+
+YouTube: Search "Akili Academy decomposition" → Download via YouTube Go
+
+
+
+
+Paper Prototyping Kit
+
+	
+
+Printable templates for sketching systems
+
+	
+
+Decompose problems with pen + paper (no computer needed)
+
+	
+
+bit.ly/paper-prototyping-africa (PDF, 200KB)
+
+💡 Pro Tip: Download resources on campus Wi-Fi. Study offline on your bus ride home. 
